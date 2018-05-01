@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vocoole.foundation.mapper.vocoole.MallMapper">
+    <resultMap id="BaseResultMap" type="com.vocoole.foundation.dao.vocoole.MallDo">
+        <id property="id"  column="id"/>
+        <result property="mallNo" column="mall_no"/>
+        <result property="mallName" column="mall_name"/>
+        <result property="mallAddress" column="mall_address"/>
+        <result property="corporateName" column="corporate_name"/>
+        <result property="manageName" column="manage_name"/>
+        <result property="managePhone" column="manage_phone"/>
+        <result property="businLicese" column="busin_license"/>
+        <result property="cityId" column="city_id"/>
+        <result property="longitude" column="longitude"/>
+        <result property="latitude" column="latitude"/>
+        
+        <result property="checkStatus" column="check_status"/>
+        <result property="checkExplain" column="check_explain"/>
+        <result property="checkStaffNo" column="check_staff_no"/>
+
+        <result property="updateTime" column="update_time"/>
+        <result property="createTime" column="create_time"/>
+        <result property="version" column="version"/>
+        <result property="deleted" column="deleted"/>
+    </resultMap>
+
+
+
+    
+    
+    
+    <select id="select"
+
+
+
+
+</mapper>
